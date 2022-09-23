@@ -5,15 +5,9 @@ body {
     font-size: 15px;
     color:darkslategray;
 }
-  
-h1 {
-    font-family: Georgia, serif;
-    font-size: 60px;
-    color: white;
-}
 
 a {
-    font-size: medium;
+    font-size: 20px;
     text-decoration: none
 }
 
@@ -26,7 +20,7 @@ header {
     text-align: left;
     border-radius: 5px;
     color: black;
-    font-size:x-large;
+    font-size:30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -82,9 +76,9 @@ img {
 
 .fa {
     float: right;
-    padding: 10px;
-    font-size: 15px;
-    width: 30px;
+    padding: 7px;
+    font-size: 10px;
+    width: 25px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -113,3 +107,9 @@ img {
     text-decoration: none;
     color: white
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
