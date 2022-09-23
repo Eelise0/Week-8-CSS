@@ -12,10 +12,17 @@ a {
     margin-left: 2%;
 }
 
+a:visited {
+    text-decoration: none; color: rgb(16, 61, 108)
+}
 
-a:visited {text-decoration: none; color: rgb(16, 61, 108)}
-a:hover { text-decoration: none; color: black; }
-a:active { text-decoration: none; color:teal; }
+a:hover { 
+    text-decoration: none; color: black; 
+}
+
+a:active { 
+    text-decoration: none; color:teal;
+}
 
 header {
     background-color: rgb(191, 212, 244);
@@ -125,4 +132,4 @@ img {
     content: "";
     clear: both;
     display: table;
-  }
+}
